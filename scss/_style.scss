@@ -1,0 +1,590 @@
+@function imgUrl($file, $path: "background"){
+@return url("../images/" + $path + "/" + $file) no-repeat;
+}
+
+header {
+    .header-top-bar {
+        padding: 86px 0;
+        background: $black;
+
+        .address {
+            font-family: $font-gilroy;
+            font-weight: 500;
+            font-size: 1.25rem;
+            letter-spacing: 0.035em;
+            color: $white;
+            border-left: 2px solid $primary;
+            padding-left: 24px;
+        }
+
+        .opening-hrs {
+            font-family: $font-gilroy;
+            color: $dark-grey;
+            font-size: 1.25rem;
+            letter-spacing: 0.055em;
+            line-height: 1.2;
+        }
+
+        .button-book {
+            background: url("../images/lib/Group.png") no-repeat;
+        }
+
+        .button-phone {
+            background: url("../images/lib/Group1.png") no-repeat;
+            color: $black;
+        }
+
+        .button-book,
+        .button-phone {
+            background-size: contain;
+            font-size: 1.25rem;
+            font-family: $font-gilroy;
+            width: 270px;
+            height: 51px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 800;
+            letter-spacing: 0.055em;
+            text-transform: uppercase;
+        }
+    }
+}
+
+section.cta {
+    padding: 64px 0;
+
+    .cta-card {
+        background: linear-gradient(90.41deg, #181818 -1.22%, #222829 102.79%);
+        box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+        padding: 25px 25px 39px 25px;
+
+        .cta_heroImg {
+            width: 100%;
+        }
+
+        .cta_cardBody {
+            position: relative;
+            padding: 97px 16px 71px;
+
+            .cta_percentImg1 {
+                position: absolute;
+                left: -6rem;
+                top: 2.875rem;
+            }
+
+            .cta_percentImg2 {
+                position: absolute;
+                right: -6rem;
+                top: 2.875rem;
+            }
+
+            .cta_mainHeading {
+                font-size: 2.1875rem;
+            }
+
+            .cta_smallHeading {
+                font-size: 1.5625rem;
+            }
+        }
+
+        .cta_enquiryBtn {
+            font-size: 1.25rem;
+            letter-spacing: 0.145em;
+            border-bottom: 2px solid $primary;
+            line-height: 1;
+            border-radius: 0;
+        }
+    }
+}
+
+section.awarded {
+    background: $jet-black imgUrl("car.png");
+    background-size: contain;
+
+    .awarded_mainContent {
+        padding: 94px 0 68px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .award_heroTitle {
+        color: $primary;
+        font-size: 3.75rem;
+        font-weight: 800;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        padding: 27px 0 32px;
+    }
+
+    .award_description {
+        color: $white;
+        font-weight: 400;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+    }
+}
+
+section.form {
+    background: imgUrl("map.png");
+    background-position-y: 30%;
+    background-size: contain;
+    padding: 66px 0 0;
+
+    .contact-us-info-wrapper {
+        padding-bottom: 230px;
+    }
+
+    .contact-us {
+        line-height: 1.25;
+        letter-spacing: 0.075em;
+        font-size: 1.25rem;
+        color: $white;
+        text-transform: uppercase;
+    }
+
+    .cont-no.mt-3.mb-5 {
+        font-weight: 800;
+        font-size: 1.5rem;
+        color: $white;
+        letter-spacing: 0.14rem;
+
+    }
+
+    .contact-title {
+        font-size: 3.75rem;
+        font-weight: 900;
+        color: $white;
+        font-family: $font-orbitron;
+        letter-spacing: 0.08em;
+    }
+
+    .form_main {
+        background: $white;
+        border-radius: 12px;
+        box-shadow: 7px 10px 15px rgba(0, 0, 0, 0.4);
+        padding: 76px 104px 72px;
+        display: flex;
+        justify-content: center;
+
+        form {
+            .form_heroTitle {
+                font-family: $font-orbitron;
+                font-weight: 900;
+                letter-spacing: 0.05em;
+                text-align: center;
+                font-size: 1.875rem;
+                line-height: 1.19;
+                text-transform: uppercase;
+                color: $primary;
+                padding-bottom: 70px;
+            }
+
+            input {
+                border: 0;
+                border-bottom: 1px solid $tertiary;
+                border-radius: 0;
+
+                &:focus,
+                &:active {
+                    box-shadow: none;
+                    outline: none;
+                }
+            }
+
+            label {
+                letter-spacing: 0.02em;
+                font-size: 1.25rem;
+                font-weight: 800;
+            }
+
+            button {
+                font-size: 1.5625rem;
+                text-transform: uppercase;
+                letter-spacing: 0.185em;
+                font-weight: 800;
+                min-height: 63px;
+            }
+
+            textarea {
+                border: 1px solid $tertiary;
+                padding: 21px;
+
+                &::placeholder {
+                    color: $tertiary;
+                    letter-spacing: 0.02em;
+                    font-size: 1.25rem;
+                }
+            }
+
+            select {
+                letter-spacing: 0.02em;
+                font-weight: 800;
+                font-size: 1.25rem;
+                color: $tertiary;
+                border: 1px solid $tertiary;
+                min-height: 60px;
+            }
+        }
+    }
+}
+
+section.our-offer {
+    padding: 33px 0 85px;
+
+    .heroHeading {
+        font-weight: 900;
+        letter-spacing: 0.08em;
+        font-size: 3.75rem;
+        font-family: $font-orbitron;
+        line-height: 1.17;
+    }
+
+    .offer-list {
+        padding-top: 64px;
+
+        p {
+            line-height: 1.455;
+            color: $white;
+            text-transform: uppercase;
+            font-weight: 500;
+            font-size: 1.25rem;
+            letter-spacing: 0.08em;
+            text-decoration: underline;
+            padding: 12px 0;
+        }
+
+        .horizontal-divider {
+            width: 307px;
+            background-color: $white;
+            height: 1px;
+            margin: 43px 0 15px;
+        }
+    }
+}
+
+section.service {
+    padding: 46px 0;
+
+    .service-wrapper {
+        background: linear-gradient(90.41deg, #181818 -1.22%, #222829 102.79%);
+        box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+
+        .breadcrumb {
+            background-color: transparent;
+            color: $white;
+            text-transform: uppercase;
+            font-weight: 500;
+            letter-spacing: 0.08em;
+            font-size: 1rem;
+            line-height: 1.455;
+            padding: 34px 0 16px;
+        }
+
+        .car-img {
+            margin-top: -90px;
+        }
+
+        .heroHeading {
+            color: $white;
+            font-family: $font-orbitron;
+            font-weight: 900;
+            font-size: 3.75rem;
+            letter-spacing: 0.09;
+            text-transform: uppercase;
+            line-height: 1.115;
+            padding: 59px 0 22px;
+        }
+
+        .back-link {
+            color: $white;
+            letter-spacing: 0.1em;
+            font-size: 0.875rem;
+            writing-mode: vertical-rl;
+            -webkit-writing-mode: vertical-rl;
+            -ms-writing-mode: vertical-rl;
+            text-transform: uppercase;
+            display: flex;
+            align-items: center;
+            padding: 40px 42px;
+        }
+
+        .service-slider {
+            padding: 23px 0;
+
+            .service-slider-content {
+                transform: skew(-19deg);
+                border: 2px solid $primary;
+                margin: 0 18px;
+
+                .service-slider-content-inner {
+                    color: $primary;
+                    transform: skew(19deg);
+                    text-transform: uppercase;
+                    padding: 7px 24px;
+                    font-size: 1.25rem;
+                    font-weight: 800;
+                    letter-spacing: 0.08em;
+                }
+            }
+
+            .slick-dots {
+                display: flex;
+                justify-content: center;
+                margin: 0;
+                padding: 1rem 0;
+                list-style-type: none;
+                position: absolute;
+                top: 10px;
+
+                li {
+                    margin: 0 0.25rem;
+                }
+
+                button {
+                    position: relative;
+                    right: 19px;
+                    width: 8rem;
+                    text-indent: -9999px;
+                    border-bottom: 1px solid #23a2de;
+                    margin-top: 75px;
+
+                }
+
+                li.slick-active {
+                    border-top: 18px solid transparent;
+                    border-left: 26px solid #23a2de;
+                    position: relative;
+                    border-bottom: 18px solid transparent;
+                    top: 75px;
+                    padding: 1px;
+                }
+
+                li.slick-active button {
+                    background-color: red;
+                    display: none;
+                }
+
+            }
+        }
+
+        .btn-contact-us {
+            background: imgUrl("contact-us-btn.png");
+            background-size: contain;
+            letter-spacing: 0.04em;
+            font-size: 1.25rem;
+            font-weight: 800;
+            padding: 13px 49px;
+            line-height: 1;
+        }
+    }
+}
+
+section.cta_2 {
+    padding-bottom: 97px;
+
+    .cta_card {
+        background: $primary;
+        box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+        border-radius: 2px;
+
+        .hero_img {
+            padding: 16.28px;
+
+            img {
+                filter: drop-shadow(5px 4px 10px rgba(0, 0, 0, 0.25));
+                width: 100%;
+            }
+        }
+
+        .card_content {
+            padding: 15px 16px 36px 0;
+
+            .card_title {
+                font-weight: 800;
+                font-size: 1.5625rem;
+                line-height: 1.035;
+                text-transform: uppercase;
+                letter-spacing: -0.29;
+            }
+
+            .cta_2_enquiryBtn {
+                padding-top: 32px;
+                color: $black;
+                font-size: 1rem;
+                letter-spacing: 0.145em;
+                border-bottom: 2px solid $black;
+                line-height: 1;
+                border-radius: 0;
+            }
+        }
+    }
+}
+
+
+section.business-time-block {
+
+    background: imgUrl("map.png");
+    background-position-y: 30%;
+    background-size: contain;
+    padding: 96px 0 0;
+
+    .hr {
+        width: 233px;
+        border-bottom: 2px solid white;
+    }
+
+    .opening-hrs {
+        font-family: $font-gilroy;
+        color: $white;
+        font-size: 1.25rem;
+        letter-spacing: 0.055em;
+        line-height: 1.2;
+    }
+
+    .horizontal-divider {
+        width: 233px;
+        background-color: $white;
+        height: 1px;
+        margin: 15px 0 15px;
+    }
+
+    .business-hero-title {
+        font-weight: 700;
+        color: white;
+        font-size: 3.75rem;
+        text-transform: uppercase;
+        letter-spacing: 0.095em;
+        font-family: $font-orbitron;
+        line-height: 1.12em;
+        padding-bottom: 278px;
+        padding-top: 24px;
+    }
+
+    .contact-us {
+        line-height: 1.25;
+        letter-spacing: 0.075em;
+        font-size: 1.25rem;
+        color: $white;
+        text-transform: uppercase;
+    }
+
+    .cont-no.mt-3.mb-5 {
+        font-weight: 800;
+        font-size: 1.5rem;
+        color: $white;
+        letter-spacing: 0.14rem;
+
+    }
+
+    .contact-title {
+        font-size: 3.75rem;
+        font-weight: 900;
+        color: $white;
+        font-family: $font-orbitron;
+        letter-spacing: 0.08em;
+    }
+
+    .timing-info-wrapper {
+        text-transform: uppercase;
+        color: $white;
+        padding-top: 75px;
+        text-align: end;
+
+
+        .timing {
+            font-weight: 800;
+            font-size: 1.25rem;
+            letter-spacing: 0.12rem;
+            padding-bottom: 16px;
+
+            span {
+                border-bottom: 2px solid #9E9E9E;
+
+
+                .open-close-time {
+                    font-family: 'Gilroy';
+                    font-weight: 500;
+                    letter-spacing: 0.055em;
+                    text-transform: uppercase;
+                    line-height: 1.5rem;
+                    padding-left: 108px;
+                    border: 0px;
+                }
+
+                .closed-day {
+                    color: $primary;
+                    font-weight: 700;
+                    font-size: 1.25rem;
+                    line-height: 1.6rem;
+                    padding-left: 141px
+                }
+            }
+        }
+    }
+
+}
+
+
+section.footer-btn {
+
+
+    .contact-us-footer-btn {
+        width: 527px;
+        height: 94px;
+        background: url("/images/lib/contact-us-footer.png") no-repeat;
+    }
+
+}
+
+footer.main-footer {
+    background: #2d2d2d;
+
+    .footer-logo {
+        width: 254px;
+        height: 77.13px;
+    }
+
+    img.flag-footer {
+        width: 54px;
+    }
+
+    .footer-hero-title {
+
+        font-weight: 500;
+        font-size: 1.5rem;
+        line-height: 2rem;
+        letter-spacing: 0.08em;
+        color: $white;
+
+
+    }
+
+    .aiims-logo {
+        padding-top: 47px;
+        padding-bottom: 45px;
+    }
+
+
+
+}
+section
+
+    #return-to-top {
+        position: fixed;
+        bottom: 95px;
+        z-index: 9;
+        display: block;
+        text-decoration: none;
+        -webkit-border-radius: 35px;
+        -moz-border-radius: 35px;
+        border-radius: 35px;
+        display: none;
+        -webkit-transition: all 0.3s linear;
+        -moz-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+    }
+
+

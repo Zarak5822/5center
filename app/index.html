@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta itemprop="thumbnailUrl" content="" />
+	<meta name="keywords" content="HTML, CSS, JavaScript">
+	<meta name="author" content="Aayush Rijal, Aiims">
+	<meta name="description" content="" />
+	<link rel="icon" href="images/favicon.png" type="image/png">
+	<title>5center</title>
+	<link rel="stylesheet" href="css/main.css?v=0.1">
+	<!-- Recaptcha Here -->
+	<!-- <script src="https://www.google.com/recaptcha/api.js?render=6Ldf65UaAAAAAG2NFdHEwxOgp2Y1EHUf2v_Slf6J"></script>
+	<script>
+		grecaptcha.ready(function () {
+			grecaptcha.execute('6Ldf65UaAAAAAG2NFdHEwxOgp2Y1EHUf2v_Slf6J', { action: 'contact' }).then(function (token) {
+				document.getElementById('recaptchaResponse').value = token;
+			});
+		});
+	</script> -->
+</head>
+
+<body>
+	<header>
+		<div class="header-top-bar">
+			<div class="container py-3">
+				<div class="row justify-content-center justify-content-lg-between align-items-center">
+					<div class="col-auto">
+						<div class="row no-gutters align-items-center">
+							<div class="col-auto pr-4">
+								<img src="./images/lib/flag.png" alt="">
+							</div>
+							<div class="col-auto text-white address">
+								<div>37 Saleem Nuwayyer Al-Naber</div>
+								<div>Street Marj Al-Hamam</div>
+								<div>11732 <span class="fw-800">Jordan</span></div>
+							</div>
+						</div>
+
+					</div>
+					<div class="col-auto logo">
+						<a href="./">
+							<img src="./images/logo/5center.png" alt="5Center">
+						</a>
+					</div>
+					<div class="col-auto">
+						<div class="row justify-content-center py-2">
+							<div class="col-auto">
+								<div class="pulse pulsating-circle"></div>
+							</div>
+							<div class="col-auto opening-hrs">
+								<div id="opening-status" class="currently-open text-uppercase fw-800">We are Open!</div>
+								<div class="h17 fw-400">08:00-20:00</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-auto">
+						<div class="py-2">
+							<a href="#form" class="btn btn-block button-book rounded-0 text-white py-3 px-md-5">
+								Book Online
+							</a>
+						</div>
+						<div class="py-2">
+							<a href="" class="btn btn-block button-phone rounded-0 px-md-5">
+								(07) 9645 9000
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="banner">
+			<video width="100%" loop autoplay>
+				<source src="../video/desktop-banner.mp4" type="video/mp4">
+				<source src="../video/desktop-banner.ogg" type="video/ogg">
+				Your browser does not support the video tag.
+			</video>
+		</div>
+	</header>
+
+	<section class="cta">
+		<div class="container">
+			<div class="row justify-content-center justify-content-xl-start align-items-center">
+				<div class="col-12 col-lg-6">
+					<div class="cta-card">
+						<img class="cta_heroImg" src="../images/lib/cta_1.png" alt="Card image">
+						<div class="cta_cardBody">
+							<div class="cta_percentImg1"><img src="images/lib/cta_percent.png"></div>
+							<div class="row justify-content-end">
+								<div class="col-md-6 text-white">
+									<div class="cta_mainHeading text-uppercase fw-700 letter-spacing-05">Vip car care
+									</div>
+									<div class="cta_smallHeading fw-500 letter-spacing-05 text-uppercase"> PACKAGE</div>
+								</div>
+							</div>
+						</div>
+						<div class="text-center">
+							<a href="#form" class="btn text-primary cta_enquiryBtn px-0">ENQUIRE NOW!</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-lg-6">
+					<div class="cta-card">
+						<img class="cta_heroImg" src="../images/lib/cta_2.png" alt="Card image">
+						<div class="cta_cardBody">
+							<div class="row">
+								<div class="col-md-6 text-white">
+									<div class="cta_mainHeading text-uppercase fw-700 letter-spacing-05">Vip car care
+									</div>
+									<div class="cta_smallHeading fw-500 letter-spacing-05 text-uppercase"> PACKAGE</div>
+								</div>
+							</div>
+							<div class="cta_percentImg2"><img src="images/lib/cta_percent_1.png"></div>
+						</div>
+						<div class="text-center">
+							<a href="#form" class="btn text-primary cta_enquiryBtn px-0">ENQUIRE NOW!</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="awarded">
+		<div class="container">
+			<div class="row justify-content-end">
+				<div class="col-12 col-lg-5">
+					<div class="awarded_mainContent">
+						<div class="row no-gutters">
+							<div class="col-auto"><img src="../images/lib/award_sm_title.png" alt="Awards"></div>
+							<div class="col-12 award_heroTitle">AWARDED IN CAR<br> DETAILING</div>
+							<div class="col-12 col-lg-8 award_description pr-xxl-3">
+								we have been washing cars for <span class="fw-800">20 years</span> in
+								amman in our beautiful car wash in marj al hamam.
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="form" id="form">
+		<div class="container-fluid">
+			<div class="row justify-content-center">
+				<div class="col-xxl-11">
+					<div class="row no-gutters justify-content-between align-items-end">
+						<div class="col-lg-4 contact-us-info-wrapper">
+							<div class="contact-us">37 Saleem Nuwayyer Al-Naber </div>
+							<div class="contact-us"> Marj Al-Hamam 11732 <b>Jordan</b></div>
+							<div class="cont-no mt-3 mb-5">(07) 9645 9000</div>
+							<div class="contact-title">CONTACT US</div>
+						</div>
+						<div class="col-lg-5">
+							<div class="form_main">
+								<form action="./src/form" method="POST" enctype="multipart/form-data">
+									<input type="hidden" name="token" id="recaptchaResponse" class="recaptchaResponse">
+									<div class="form_heroTitle">
+										We Will Get Back<br> to you Asap!
+									</div>
+									<div class="row no-gutters justify-content-center">
+										<div class="col-md-6 pr-md-2 pb-1">
+											<div class="form-group">
+												<label>NAME<span>*</span></label>
+												<input type="text" class="form-control" required>
+											</div>
+										</div>
+										<div class="col-md-6 pl-md-2 pb-1">
+											<div class="form-group">
+												<label>PHONE NO<span>*</span></label>
+												<input type="password" class="form-control" required>
+											</div>
+										</div>
+										<div class="col-12 pt-5 pb-1">
+											<label>EMAIL<span>*</span></label>
+											<input type="email" class="form-control">
+										</div>
+										<div class="col-12 pt-5 pb-1">
+											<textarea class="form-control" rows="5" placeholder="MESSAGE..."></textarea>
+										</div>
+										<div class="col-12 pt-5 pb-2">
+											<select class="form-control">
+												<option selected>TYPE OF SERVICE*</option>
+												<option>a</option>
+												<option>b</option>
+												<option>b</option>
+											</select>
+										</div>
+										<div class="col-md-3 col-lg-5 pt-6">
+											<button type="submit"
+												class="btn btn-primary btn-block rounded-0">Submit</button>
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- <section class="scroll-top mt-5" id="return-to-top">
+		<div class="container">
+			<div class="row justify-content-center justify-content-xl-start align-items-center">
+				<div class="col-6">
+					<div class="scroll"></div>
+				</div>
+				<div class="col-6">
+
+				</div>
+
+			</div>
+		</div>
+	</section> -->
+
+	<section class="our-offer">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-4 text-uppercase text-primary heroHeading">
+					Explore what we offer
+				</div>
+				<div class="col-2">
+					<img src="./images/lib/right-arrow.png" alt="">
+				</div>
+				<div class="col offer-list">
+					<p class="">Car Cleaning</p>
+					<p class="">Car Servicing &amp; Mechanical Repairs</p>
+					<p class="">General Mechanic &amp; Servicing</p>
+					<div class="horizontal-divider"></div>
+					<p class="">Performance car tuning</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="service">
+		<div class="container">
+			<div class="service-wrapper">
+				<div class="row no-gutters justify-content-between">
+					<div class="col-10">
+						<div class="row no-gutters">
+							<div class="col-auto">
+								<img src="images/lib/car-cleaning.png">
+							</div>
+							<div class="col text-right">
+								<div class="row no-gutters justify-content-end breadcrumb">
+									<div class="col-auto">Our Services</div>
+									<div class="col-auto px-4">
+										<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#0BA8FF"
+											class="bi bi-play-fill" viewBox="0 0 16 16">
+											<path
+												d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z" />
+										</svg>
+									</div>
+									<div class="col-auto">Car Cleaning</div>
+								</div>
+								<div class="heroHeading">Car Cleaning<br> Services</div>
+								<a href="#form" class="btn btn-contact-us text-white text-uppercase">Contact us now</a>
+							</div>
+						</div>
+						<div class="row no-gutters justify-content-end">
+							<div class="col-lg-11 pb-5">
+								<div class="service-slider">
+									<div class="service-slider-content">
+										<div class="service-slider-content-inner">Car Wash</div>
+									</div>
+									<div class="service-slider-content">
+										<div class="service-slider-content-inner">Car detailing</div>
+									</div>
+									<div class="service-slider-content">
+										<div class="service-slider-content-inner">Wax on wax off</div>
+									</div>
+									<div class="service-slider-content">
+										<div class="service-slider-content-inner">Car Carpet Cleaning</div>
+									</div>
+									<div class="service-slider-content">
+										<div class="service-slider-content-inner">Nano Coating</div>
+									</div>
+									<div class="service-slider-content">
+										<div class="service-slider-content-inner">Deep car cleaning</div>
+									</div>
+									<div class="service-slider-content">
+										<div class="service-slider-content-inner">Clay bar car cleaning</div>
+									</div>
+									<div class="service-slider-content">
+										<div class="service-slider-content-inner">Car Paint Protention</div>
+									</div>
+									<div class="service-slider-content">
+										<div class="service-slider-content-inner">Car poslishing</div>
+									</div>
+									<div class="service-slider-content">
+										<div class="service-slider-content-inner">Leather cleaning</div>
+									</div>
+									<div class="service-slider-content">
+										<div class="service-slider-content-inner">Clay bar car cleaning</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-auto">
+						<div class="back-link">
+							<svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<circle cx="15" cy="15" r="14.5" stroke="#23A2DE" />
+								<path d="M15 7L21.0622 19H8.93782L15 7Z" fill="#23A2DE" />
+							</svg>
+							<span class="pt-3">Back to all services</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="service">
+		<div class="container">
+			<div class="service-wrapper">
+				<div class="row no-gutters justify-content-between">
+					<div class="col-auto">
+						<div class="back-link">
+							<svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<circle cx="15" cy="15" r="14.5" stroke="#23A2DE" />
+								<path d="M15 7L21.0622 19H8.93782L15 7Z" fill="#23A2DE" />
+							</svg>
+							<span class="pt-3">Back to all services</span>
+						</div>
+					</div>
+					<div class="col-10">
+						<div class="row no-gutters">
+							<div class="col">
+								<div class="row no-gutters breadcrumb">
+									<div class="col-auto">Our Services</div>
+									<div class="col-auto px-4">
+										<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#0BA8FF"
+											class="bi bi-play-fill" viewBox="0 0 16 16">
+											<path
+												d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z" />
+										</svg>
+									</div>
+									<div class="col-auto">Car Servicing &amp; Mechanical Repairs</div>
+								</div>
+								<div class="heroHeading">Car Servicing<br> &amp; Mechanical Repairs</div>
+								<a href="#form" class="btn btn-contact-us text-white text-uppercase">Contact us now</a>
+							</div>
+
+							<div class="col-auto">
+								<img src="images/lib/mechanical-repair.png" class="car-img">
+							</div>
+						</div>
+						<div class="row no-gutters">
+							<div class="col-lg-11 pb-5">
+								<div class="service-slider">
+									<div class="service-slider-content">
+										<div class="service-slider-content-inner">mechanical repairs</div>
+									</div>
+									<div class="service-slider-content">
+										<div class="service-slider-content-inner">Toyota Servicing</div>
+									</div>
+									<div class="service-slider-content">
+										<div class="service-slider-content-inner">chevrolet Servicing</div>
+									</div>
+									<div class="service-slider-content">
+										<div class="service-slider-content-inner">Mercedes AMG Servicing</div>
+									</div>
+									<div class="service-slider-content">
+										<div class="service-slider-content-inner">Cadillac Servicing</div>
+									</div>
+									<div class="service-slider-content">
+										<div class="service-slider-content-inner">Audi Servicing</div>
+									</div>
+									<div class="service-slider-content">
+										<div class="service-slider-content-inner">Porsche Servicing</div>
+									</div>
+
+									<div class="service-slider-content">
+										<div class="service-slider-content-inner">Lamborghini Servicing</div>
+									</div>
+
+									<div class="service-slider-content">
+										<div class="service-slider-content-inner">Alfa Romeo Servicing</div>
+									</div>
+
+									<div class="service-slider-content">
+										<div class="service-slider-content-inner">Ford Truck Servicing</div>
+									</div>
+
+									<div class="service-slider-content">
+										<div class="service-slider-content-inner">BMW Servicing</div>
+									</div>
+									<div class="service-slider-content">
+										<div class="service-slider-content-inner">Hyundai Servicing</div>
+									</div>
+									<div class="service-slider-content">
+										<div class="service-slider-content-inner">Mitsubishi Rally Art Servicing</div>
+									</div>
+									<div class="service-slider-content">
+										<div class="service-slider-content-inner">Ferrari Servicing</div>
+									</div>
+									<div class="service-slider-content">
+										<div class="service-slider-content-inner">GMC Servicing</div>
+									</div>
+									<div class="service-slider-content">
+										<div class="service-slider-content-inner">VW Servicing</div>
+									</div>
+									<div class="service-slider-content">
+										<div class="service-slider-content-inner">Volkswagen Servicing Servicing</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="service">
+		<div class="container">
+			<div class="service-wrapper">
+				<div class="row no-gutters justify-content-between">
+					<div class="col-10">
+						<div class="row no-gutters">
+							<div class="col-auto">
+								<img src="images/lib/general-mechanic.png" class="mechanic-img">
+							</div>
+							<div class="col text-right">
+								<div class="row no-gutters justify-content-end breadcrumb">
+									<div class="col-auto">Our Services</div>
+									<div class="col-auto px-4">
+										<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#0BA8FF"
+											class="bi bi-play-fill" viewBox="0 0 16 16">
+											<path
+												d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z" />
+										</svg>
+									</div>
+									<div class="col-auto">General Mechanic &amp; Servicing</div>
+								</div>
+								<div class="heroHeading">General Mechanic<br> &amp; Servicing</div>
+								<a href="#form" class="btn btn-contact-us text-white text-uppercase">Contact us now</a>
+							</div>
+						</div>
+						<div class="row no-gutters justify-content-end">
+							<div class="col-lg-11 pb-5">
+								<div class="service-slider">
+									<div class="service-slider-content">
+										<div class="service-slider-content-inner">Express Oil Change</div>
+									</div>
+									<div class="service-slider-content">
+										<div class="service-slider-content-inner">Minor Services</div>
+									</div>
+									<div class="service-slider-content">
+										<div class="service-slider-content-inner">Major Services</div>
+									</div>
+									<div class="service-slider-content">
+										<div class="service-slider-content-inner">Brake Pad Replacements</div>
+									</div>
+									<div class="service-slider-content">
+										<div class="service-slider-content-inner">fuel Filters</div>
+									</div>
+									<div class="service-slider-content">
+										<div class="service-slider-content-inner">Oil Filter Replacements</div>
+									</div>
+									<div class="service-slider-content">
+										<div class="service-slider-content-inner">Spark Plugs Replacements</div>
+									</div>
+									<div class="service-slider-content">
+										<div class="service-slider-content-inner">Timing Belts & Chain Replacements</div>
+									</div>
+									<div class="service-slider-content">
+										<div class="service-slider-content-inner">Diesel Tuning</div>
+									</div>
+									<div class="service-slider-content">
+										<div class="service-slider-content-inner">Diesel DPF Filter</div>
+									</div>
+									<div class="service-slider-content">
+										<div class="service-slider-content-inner">Gearbox Service & Repairs</div>
+									</div>
+									<div class="service-slider-content">
+										<div class="service-slider-content-inner">Radiator Repairs</div>
+									</div>
+									<div class="service-slider-content">
+										<div class="service-slider-content-inner">Brake Disc Replacements</div>
+									</div>
+									<div class="service-slider-content">
+										<div class="service-slider-content-inner">Air Filters</div>
+									</div>
+									<div class="service-slider-content">
+										<div class="service-slider-content-inner">cabin Filters</div>
+									</div>
+									<div class="service-slider-content">
+										<div class="service-slider-content-inner">Suspension & Shock Replacements</div>
+									</div>
+									<div class="service-slider-content">
+										<div class="service-slider-content-inner">EPF By Pass Amman</div>
+									</div>
+									<div class="service-slider-content">
+										<div class="service-slider-content-inner">Diesel DPF Delete & By Pass</div>
+									</div>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-auto">
+						<div class="back-link">
+							<svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<circle cx="15" cy="15" r="14.5" stroke="#23A2DE" />
+								<path d="M15 7L21.0622 19H8.93782L15 7Z" fill="#23A2DE" />
+							</svg>
+							<span class="pt-3">Back to all services</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="cta_2">
+		<div class="container">
+			<div class="row">
+				<div class="col-4">
+					<div class="cta_card">
+						<div class="hero_img"><img src="./images/lib/deep-later-carpet-clean.png" alt=""></div>
+						<div class="card_content">
+							<div class="row no-gutters">
+								<div class="col-6">
+									<div class="cta-2-img">
+										<img src="./images/background/cta-2.png" alt="cta-2-img">
+									</div>
+								</div>
+								<div class="col-6 card_title">
+									Deep Later &amp; Carpet Clean
+								</div>
+							</div>
+							<div class="text-center">
+								<a href="#form" class="btn  cta_2_enquiryBtn px-0">ENQUIRE NOW!</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-4">
+					<div class="cta_card">
+						<div class="hero_img"><img src="./images/lib/4-set-of-tyres.png" alt=""></div>
+						<div class="card_content">
+							<div class="row no-gutters">
+								<div class="col-6">
+									<div class="cta-2-img">
+										<img src="./images/background/cta-2.png" alt="cta-2-img">
+									</div>
+								</div>
+								<div class="col-6 card_title">
+									On all new 4 set of tyres
+								</div>
+							</div>
+							<div class="text-center">
+								<a href="#form" class="btn  cta_2_enquiryBtn px-0">ENQUIRE NOW!</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-4">
+					<div class="cta_card">
+						<div class="hero_img"><img src="./images/lib/oil-change.png" alt=""></div>
+						<div class="card_content">
+							<div class="row no-gutters">
+								<div class="col-6">
+									<div class="cta-2-img">
+										<img src="./images/background/cta-2.png" alt="cta-2-img">
+									</div>
+								</div>
+								<div class="col-6 card_title">
+									All Major service &amp; Oil Change
+								</div>
+							</div>
+							<div class="text-center">
+								<a href="#form" class="btn  cta_2_enquiryBtn px-0">ENQUIRE NOW!</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="service">
+		<div class="container">
+			<div class="service-wrapper">
+				<div class="row no-gutters justify-content-between">
+					<div class="col-auto">
+						<div class="back-link">
+							<svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<circle cx="15" cy="15" r="14.5" stroke="#23A2DE" />
+								<path d="M15 7L21.0622 19H8.93782L15 7Z" fill="#23A2DE" />
+							</svg>
+							<span class="pt-3">Back to all services</span>
+						</div>
+					</div>
+					<div class="col-10">
+						<div class="row no-gutters">
+							<div class="col">
+								<div class="row no-gutters breadcrumb">
+									<div class="col-auto">Our Services</div>
+									<div class="col-auto px-4">
+										<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#0BA8FF"
+											class="bi bi-play-fill" viewBox="0 0 16 16">
+											<path
+												d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z" />
+										</svg>
+									</div>
+									<div class="col-auto">Performance car Tuning</div>
+								</div>
+								<div class="heroHeading">Performance<br> Car Tuning</div>
+								<a href="#form" class="btn btn-contact-us text-white text-uppercase">Contact us now</a>
+							</div>
+
+							<div class="col-auto">
+								<div class="car-img">
+									<img src="images/lib/car-tuning.png" alt="img">
+								</div>
+
+							</div>
+						</div>
+						<div class="row no-gutters">
+							<div class="col-lg-11 pb-5">
+								<div class="service-slider">
+									<div class="service-slider-content">
+										<div class="service-slider-content-inner">Vehicle Diagnostic</div>
+									</div>
+									<div class="service-slider-content">
+										<div class="service-slider-content-inner">Vehicle Tuning </div>
+									</div>
+									<div class="service-slider-content">
+										<div class="service-slider-content-inner">Car Building</div>
+									</div>
+									<div class="service-slider-content">
+										<div class="service-slider-content-inner">Car Engine Builds</div>
+									</div>
+									<div class="service-slider-content">
+										<div class="service-slider-content-inner">Car Clutches</div>
+									</div>
+									<div class="service-slider-content">
+										<div class="service-slider-content-inner">Turbo Enhancements</div>
+									</div>
+									<div class="service-slider-content">
+										<div class="service-slider-content-inner">Exhaust Systems</div>
+									</div>
+									<div class="service-slider-content">
+										<div class="service-slider-content-inner">Sports Exhaust Systems</div>
+									</div>
+									<div class="service-slider-content">
+										<div class="service-slider-content-inner">Performance Headers</div>
+									</div>
+									<div class="service-slider-content">
+										<div class="service-slider-content-inner">Intercooler Piping</div>
+									</div>
+									<div class="service-slider-content">
+										<div class="service-slider-content-inner">Turbo Conversions</div>
+									</div>
+									<div class="service-slider-content">
+										<div class="service-slider-content-inner">ECU Tuning </div>
+									</div>
+									<div class="service-slider-content">
+										<div class="service-slider-content-inner">Vehicle DYNO Checks</div>
+									</div>
+									<div class="service-slider-content">
+										<div class="service-slider-content-inner">Vehicle Programming</div>
+									</div>
+									<div class="service-slider-content">
+										<div class="service-slider-content-inner">Car Repairs</div>
+									</div>
+									<div class="service-slider-content">
+										<div class="service-slider-content-inner">Car Down Pipes</div>
+									</div>
+									<div class="service-slider-content">
+										<div class="service-slider-content-inner">Speed Enhancements</div>
+									</div>
+									<div class="service-slider-content">
+										<div class="service-slider-content-inner">Turbo repairs</div>
+									</div>
+
+									<div class="service-slider-content">
+										<div class="service-slider-content-inner">Exhaust Car Back Systems</div>
+									</div>
+
+									<div class="service-slider-content">
+										<div class="service-slider-content-inner">Performance Extractors</div>
+									</div>
+
+									<div class="service-slider-content">
+										<div class="service-slider-content-inner">Intercooler Installation</div>
+									</div>
+								
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="service">
+		<div class="container">
+			<div class="service-wrapper">
+				<div class="row no-gutters justify-content-between">
+					<div class="col-10">
+						<div class="row no-gutters">
+							<div class="col-auto">
+								<img src="images/lib/performance-tyre.png" class="mechanic-img">
+							</div>
+							<div class="col text-right">
+								<div class="row no-gutters justify-content-end breadcrumb">
+									<div class="col-auto">Our Services</div>
+									<div class="col-auto px-4">
+										<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#0BA8FF"
+											class="bi bi-play-fill" viewBox="0 0 16 16">
+											<path
+												d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z" />
+										</svg>
+									</div>
+									<div class="col-auto">high performance tyres</div>
+								</div>
+								<div class="heroHeading">high <div class="high-performance-line"></div> performance
+									tyres</div>
+								<a href="#form" class="btn btn-contact-us text-white text-uppercase">Contact us now</a>
+							</div>
+						</div>
+						<div class="row no-gutters justify-content-end">
+							<div class="col-lg-11 pb-5">
+								<div class="service-slider">
+									<div class="service-slider-content">
+										<div class="service-slider-content-inner">Rally Car Tyre Replacements</div>
+									</div>
+									<div class="service-slider-content">
+										<div class="service-slider-content-inner">Off Road Tyres</div>
+									</div>
+									<div class="service-slider-content">
+										<div class="service-slider-content-inner">Desert Racing Tyres</div>
+									</div>
+									<div class="service-slider-content">
+										<div class="service-slider-content-inner">Sports Car Tyres</div>
+									</div>
+									<div class="service-slider-content">
+										<div class="service-slider-content-inner">peformance Tyres</div>
+									</div>
+									<div class="service-slider-content">
+										<div class="service-slider-content-inner">Tyre Checks & Repairs</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-auto">
+						<div class="back-link">
+							<svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<circle cx="15" cy="15" r="14.5" stroke="#23A2DE" />
+								<path d="M15 7L21.0622 19H8.93782L15 7Z" fill="#23A2DE" />
+							</svg>
+							<span class="pt-3">Back to all services</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="business-time-block">
+		<div class="container">
+			<div class="row">
+				<div class="col-xxl-11">
+
+					<div class="row no-gutters justify-content-between ">
+
+						<div class="col-lg-4 contact-us-info-wrapper">
+							<div class="col-auto hr">
+								<div class="row py-2">
+									<div class="col-auto">
+										<div class="pulse pulsating-circle"></div>
+									</div>
+									<div class="col-auto opening-hrs">
+										<div id="opening-status" class="currently-open text-uppercase fw-800">We are
+											Open!</div>
+										<div class="h17 fw-400">08:00-20:00</div>
+									</div>
+
+								</div>
+							</div>
+							<div class="business-hero-title">Business hours</div>
+							<div class="contact-us">37 Saleem Nuwayyer Al-Naber </div>
+							<div class="contact-us"> Marj Al-Hamam 11732 <b>Jordan</b></div>
+							<div class="cont-no mt-3 mb-5">(07) 9645 9000</div>
+
+						</div>
+						<div class="col-lg-5 timing-info-wrapper">
+							<div class="timing"><span>mONDAY &nbsp;&nbsp;&nbsp;<span class="open-close-time">
+										08:00-16:00</span></span></div>
+							<div class="timing"><span>Tuesday &nbsp;&nbsp;&nbsp;<span class="open-close-time">
+										08:00-16:00</span></span></div>
+							<div class="timing"><span>Wednesday &nbsp;&nbsp;&nbsp;<span class="open-close-time">
+										08:00-16:00</span></span></div>
+							<div class="timing"><span>Thursday &nbsp;&nbsp;&nbsp;<span class="open-close-time">
+										08:00-16:00</span></span></div>
+							<div class="timing"><span>Friday &nbsp;&nbsp;&nbsp;<span class="closed-day">
+										Closed</span></span></div>
+							<div class="timing"><span>Saturday &nbsp;&nbsp;&nbsp;<span class="open-close-time">
+										08:00-16:00</span></span></div>
+							<div class="timing"><span>Sunday &nbsp;&nbsp;&nbsp;<span class="open-close-time">
+										08:00-16:00</span></span></div>
+						</div>
+						<div class="col-1"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="footer-btn">
+		<div class="container">
+			<div class="row text-center justify-content-center align-items-center mb-7  mt-5">
+				<div class="col-auto">
+					<a href="#form">
+						<div class="contact-us-footer-btn">
+
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="main-footer">
+		<div class="main-footer-wrapper">
+			<div class="container text-center py-3">
+				<div class="row justify-content-center justify-content-lg-between align-items-center">
+
+					<div class="col-auto footer-logo">
+						<a href="./">
+							<img src="./images/logo/5center.png" alt="5Center">
+						</a>
+					</div>
+					<div class="col-auto">
+						<div class="row justify-content-center py-2">
+							<div class="col-auto">
+
+								<!-- Content -->
+								<h5 class="text-uppercase pb-3  footer-hero-title">THE BEST CAR WASH COMPANY IN AMMAN
+								</h5>
+								<div class="flag "><img src="images/lib/flag.png" class="flag-footer"></div>
+
+							</div>
+						</div>
+					</div>
+					<div class="col-auto">
+						<div class="aiims-logo">
+
+							<a href="https://www.aiims.com.au/like-our-work/ ">
+								<img src="images/lib/logo-aiims.png"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<section>
+			<div class="row no-gutters">
+				<div class="col-12">
+					<div class="scroll-up">
+						<a href="javascript:" id="return-to-top">
+						<img src="images/lib/scroll-btn.png" alt="scroll-img">
+						</a>
+					</div>
+				</div>
+			</div>
+
+	</section>
+	
+		<img src="images/icons/arrow-up.webp">
+	</a>
+	<script type="text/javascript" src="js/app.js?v=0.3"></script>
+	<script type="text/javascript" src="js/main.js?v=0.3"></script>
+</body>
+
+
+</html>
