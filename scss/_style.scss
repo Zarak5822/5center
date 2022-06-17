@@ -588,3 +588,70 @@ section
     }
 
 
+    @media screen and (max-width: 480px) {
+       .address{
+        display: none;
+       }
+       .pulsating-circle{
+        display: none;
+       }
+       .opening-hrs{
+        display: none;
+       }
+       .book-wrapper {
+        display: none;
+    }
+    .logo {
+        position: relative;
+        width: 167px;
+        height: 51px;
+        right: 25px;
+        bottom: 73px;
+    }
+    .flag-mb {
+        position: relative;
+        box-sizing: border-box;
+        height: 20px;
+        width: 37px;
+        bottom: 82px;
+    }
+    .enquire-number-mb-view {
+        position: relative;
+        bottom: 67px;
+    }    
+    .banner.d-xxl-none.d-sm-block.mb-bannar {
+        position: relative;
+        bottom: 153px;
+    }
+    section.awarded .awarded_mainContent {
+        padding: 178px 0 68px;
+    }
+    section.awarded .award_heroTitle{
+        font-size: 2.8rem;
+    }
+  
+
+section.form{
+    .contact-title {
+        position: relative;
+        bottom: 179px;
+        font-size: 2rem;
+    }
+    .contact-us {
+        font-size: 0.81rem;
+        position: relative;
+        top: 51px;
+    } 
+    .cont-no.cont-no.mt-3.mb-5
+    {
+        font-size: 1rem;
+        position: relative ;
+        bottom: 53px;
+
+    }   
+     .form_main {
+           padding: 76px 27px  72px;
+                }   
+
+}
+      }
