@@ -49,9 +49,9 @@
 					<div class="col-auto">
 						<div class="row justify-content-center py-2">
 							<div class="col-auto">
-								<div class="pulse pulsating-circle"></div>
+								<div class="pulse pulsating-circle d-none d-xxl-block d-md-block"></div>
 							</div>
-							<div class="col-auto opening-hrs">
+							<div class="col-auto opening-hrs d-none d-xxl-block d-md-block">
 								<div id="opening-status" class="currently-open text-uppercase fw-800">We are Open!</div>
 								<div class="h17 fw-400">08:00-20:00</div>
 							</div>
@@ -100,12 +100,12 @@
 	<section class="cta">
 		<div class="container">
 			<div class="row justify-content-center justify-content-xl-start align-items-center">
-				<div class="col-12 col-lg-6 col-md-6">
+				<div class="col-6 col-lg-6 col-md-6">
 					<div class="cta-card">
 						<img class="cta_heroImg" src="../images/lib/cta_1.png" alt="Card image">
 						<div class="cta_cardBody">
 							<div class="cta_percentImg1"><img src="images/lib/cta_percent.png"></div>
-							<div class="row justify-content-end">
+							<div class="row justify-content-end cta_titles">
 								<div class="col-md-6 text-white">
 									<div class="cta_mainHeading text-uppercase fw-700 letter-spacing-05">Vip car care
 									</div>
@@ -118,12 +118,12 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-12 col-lg-6 col-md-6">
+				<div class="col-6 col-lg-6 col-md-6">
 					<div class="cta-card">
 						<img class="cta_heroImg" src="../images/lib/cta_2.png" alt="Card image">
 						<div class="cta_cardBody">
 							<div class="row">
-								<div class="col-md-6 text-white">
+								<div class="col-md-6 text-white cta_title_2">
 									<div class="cta_mainHeading text-uppercase fw-700 letter-spacing-05">car electrical
 									</div>
 									<div class="cta_smallHeading fw-500 letter-spacing-05 text-uppercase"> reset & programming</div>
@@ -239,7 +239,7 @@
 				<div class="col-4 text-uppercase text-primary heroHeading">
 					Explore what we offer
 				</div>
-				<div class="col-2">
+				<div class="col-2 play-arrow">
 					<img src="./images/lib/right-arrow.png" alt="">
 				</div>
 				<div class="col offer-list">
@@ -257,7 +257,7 @@
 		<div class="container">
 			<div class="service-wrapper">
 				<div class="row no-gutters justify-content-between">
-					<div class="col-10">
+					<div class="col-md-10 col-12">
 						<div class="row no-gutters">
 							<div class="col-auto">
 								<img src="images/lib/car-cleaning.png">
@@ -280,7 +280,7 @@
 						</div>
 						<div class="row no-gutters justify-content-end">
 							<div class="col-lg-11 pb-5">
-								<div class="service-slider">
+								<div class="service-slider d-none">
 									<div class="service-slider-content">
 										<div class="service-slider-content-inner">Car Wash</div>
 									</div>
@@ -541,7 +541,7 @@
 	<section class="cta_2">
 		<div class="container">
 			<div class="row">
-				<div class="col-4">
+				<div class="col-12 col-md-4">
 					<div class="cta_card">
 						<div class="hero_img"><img src="./images/lib/deep-later-carpet-clean.png" alt=""></div>
 						<div class="card_content">
@@ -561,7 +561,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-4">
+				<div class="col-12 col-md-4 py-3">
 					<div class="cta_card">
 						<div class="hero_img"><img src="./images/lib/4-set-of-tyres.png" alt=""></div>
 						<div class="card_content">
@@ -581,7 +581,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-4">
+				<div class="col-12 col-md-4">
 					<div class="cta_card">
 						<div class="hero_img"><img src="./images/lib/oil-change.png" alt=""></div>
 						<div class="card_content">
@@ -853,7 +853,7 @@
 		</div>
 	</section>
 	<section>
-		<div class="row no-gutters">
+		<div class="row no-gutters d-none d-xxl-block d-md-block">
 			<div class="col-12">
 				<div class="scroll-up">
 					<a href="javascript:" id="return-to-top">
@@ -871,9 +871,14 @@
 			<div class="container text-center py-3">
 				<div class="row justify-content-center justify-content-lg-between align-items-center">
 
-					<div class="col-auto footer-logo">
+					<div class="col-auto d-none d-xxl-block d-md-block footer-logo">
 						<a href="./">
 							<img src="./images/logo/5center.png" alt="5Center">
+						</a>
+					</div>
+					<div class="col-auto footer-logo d-block d-md-none d-xxl-none">
+						<a href="./">
+							<img src="./images/logo/5centre5.png" alt="5Center">
 						</a>
 					</div>
 					<div class="col-auto">
@@ -889,10 +894,16 @@
 						</div>
 					</div>
 					<div class="col-auto">
-						<div class="aiims-logo">
+						<div class="aiims-logo  d-none d-xxl-block d-md-block">
 
-							<a href="https://www.aiims.com.au/like-our-work/ ">
-								<img src="images/lib/logo-aiims.png"></a>
+							<a href="https://www.aiims.com.au/like-our-work/ " class="">
+								<img src="images/lib/logo-aiims.png" alt="logo-aiims"></a>
+						</div>
+						
+						<div class="aiims-logo  d-block d-xxl-none d-md-none">
+
+							<a href="https://www.aiims.com.au/like-our-work/ " class="">
+								<img src="images/background/logo-aiims 1.png" alt="logo-aiims"></a>
 						</div>
 					</div>
 				</div>
